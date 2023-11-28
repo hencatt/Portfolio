@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb((255, 241, 223), 248, 255);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+#changec{
+    color: #e615ed;
+}
+
+#colo{
+    color: #450d42;
+}
+
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+
+}
+
+footer {
+    background-color: #3a3a3a;
+    
+}
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #dfdfdf;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
